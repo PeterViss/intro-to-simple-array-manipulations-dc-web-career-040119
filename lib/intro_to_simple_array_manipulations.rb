@@ -15,10 +15,9 @@ end
   @great_hits_of_the_nineties.pop
 end
 
-def pop_with_args(chars_in_game_of_thrones)
+ def pop_with_args(chars_in_game_of_thrones)
   @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
-@chars_arya_killed =  @chars_in_game_of_thrones.pop(2)
-  return @chars_arya_killed
+  @chars_in_game_of_thrones.pop(2)
 end
 
  def using_shift(my_favorite_cities)
